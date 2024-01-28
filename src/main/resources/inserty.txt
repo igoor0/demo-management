@@ -1,0 +1,78 @@
+-- Wstawianie kategorii produktów
+INSERT INTO cafemanagement.product_category (name) VALUES
+('Drink'),
+('Main Dish'),
+('Appetizer'),
+('Dessert'),
+('Other');
+
+
+-- Wstawianie kategorii produktów
+INSERT INTO cafemanagement.product_category (name) VALUES
+('Drink'),
+('Main Dish'),
+('Appetizer'),
+('Dessert'),
+('Other'),
+('Coffee'),
+('Tea'),
+('Soft Drink'),
+('Cocktail'),
+('Beer'),
+('Wine'),
+('Burger'),
+('Pizza'),
+('Pasta'),
+('Salad'),
+('Soup'),
+('Sandwich'),
+('Cake'),
+('Ice Cream'),
+('Snack'),
+('Breakfast');
+
+-- Możesz dodać więcej kategorii według własnych potrzeb.
+
+-- Wstawianie produktów
+INSERT INTO
+-- Wstawianie produktów
+INSERT INTO cafemanagement.product (name, price, image_url, description, is_seasonal, is_available, quantity, category_id) VALUES
+('Latte', 4.99, 'latte_image.jpg', 'Espresso with steamed milk and a touch of foam', false, true, 100, 6),
+('Margherita Pizza', 12.99, 'margherita_pizza_image.jpg', 'Classic pizza with tomato, mozzarella, and basil', false, true, 50, 12),
+('Caesar Salad', 8.99, 'caesar_salad_image.jpg', 'Romaine lettuce, croutons, parmesan cheese, and Caesar dressing', false, true, 30, 15),
+('Chocolate Cake', 6.99, 'chocolate_cake_image.jpg', 'Rich and moist chocolate cake', false, true, 40, 18),
+('Iced Coffee', 3.99, 'iced_coffee_image.jpg', 'Chilled coffee with ice cubes', false, true, 80, 5),
+('Green Tea', 2.99, 'green_tea_image.jpg', 'Traditional Japanese green tea', false, true, 60, 7),
+('Cheeseburger', 9.99, 'cheeseburger_image.jpg', 'Beef patty with cheese, lettuce, and tomato in a bun', false, true, 45, 11),
+('Spaghetti Bolognese', 11.99, 'spaghetti_bolognese_image.jpg', 'Spaghetti with meat sauce', false, true, 35, 13),
+('Fruit Smoothie', 5.99, 'fruit_smoothie_image.jpg', 'Blended fruit beverage', false, true, 70, 9);
+
+-- Możesz dodać więcej produktów według własnych potrzeb.
+
+
+-- Wstawianie kategorii produktów
+INSERT INTO cafemanagement.product_category (name) VALUES
+('Coffee'),
+('Pizza'),
+('Salad'),
+('Dessert'),
+('Beverage'),
+('Tea'),
+('Burger'),
+('Pasta'),
+('Smoothie');
+
+-- Wstawianie produktów
+INSERT INTO cafemanagement.product (name, price, image_url, description, is_seasonal, is_available, quantity, category_name) VALUES
+('Latte', 4.99, 'latte_image.jpg', 'Espresso with steamed milk and a touch of foam', false, true, 100, 'Coffee'),
+('Margherita Pizza', 12.99, 'margherita_pizza_image.jpg', 'Classic pizza with tomato, mozzarella, and basil', false, true, 50, 'Pizza'),
+('Caesar Salad', 8.99, 'caesar_salad_image.jpg', 'Romaine lettuce, croutons, parmesan cheese, and Caesar dressing', false, true, 30, 'Salad'),
+('Chocolate Cake', 6.99, 'chocolate_cake_image.jpg', 'Rich and moist chocolate cake', false, true, 40, 'Dessert'),
+('Iced Coffee', 3.99, 'iced_coffee_image.jpg', 'Chilled coffee with ice cubes', false, true, 80, 'Beverage'),
+('Green Tea', 2.99, 'green_tea_image.jpg', 'Traditional Japanese green tea', false, true, 60, 'Tea'),
+('Cheeseburger', 9.99, 'cheeseburger_image.jpg', 'Beef patty with cheese, lettuce, and tomato in a bun', false, true, 45, 'Burger'),
+('Spaghetti Bolognese', 11.99, 'spaghetti_bolognese_image.jpg', 'Spaghetti with meat sauce', false, true, 35, 'Pasta'),
+('Fruit Smoothie', 5.99, 'fruit_smoothie_image.jpg', 'Blended fruit beverage', false, true, 70, 'Smoothie');
+
+-- Możesz dodać więcej produktów według własnych potrzeb.
+
